@@ -1,0 +1,38 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.delBtn {
+  border: none;
+  background-color: blue;
+  color: #fff;
+  font-size: 8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.doneBtn {
+  border: none;
+  color: #fff;
+  width: 40px;
+  height: 20px;
+  border-radius: 4 px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.done:disabled,
+button[disabled] {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.todoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.done {
+  text-decoration: line-through;
+}

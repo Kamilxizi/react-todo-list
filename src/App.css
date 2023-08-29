@@ -1,0 +1,11 @@
+body {
+  background-color: antiquewhite;
+}
+.wrapper {
+  width: 50%;
+  margin-top: 30px;
+}
+.App {
+  display: flexbox;
+  justify-content: center;
+}
